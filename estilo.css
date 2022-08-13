@@ -1,0 +1,304 @@
+/*reset*/ 
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*reset*/
+
+.logo{
+    height: 80px; 
+    padding-left: 50px;
+}
+
+/*header*/
+header{
+    padding: 10px;
+    background: #CB3C43;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    padding-right: 90px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #212121;
+    font-weight: bold;
+    margin-right: 60px;
+    font-size: 18px;
+    position: relative;
+ }
+
+ header nav ul li a::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 0%;
+    height: 2px;
+    bottom: -5px;
+    left: 0px;
+    background-color: #000000;
+    transition: .2s;
+ }
+
+ header nav ul li a:hover::after{
+    width: 100%;
+ }
+ /*header*/
+
+/*footer*/ 
+footer{
+    padding: 10px;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p{
+    color: #E0E0E0;
+}
+
+footer img{
+    height: 30px;
+    padding-right: 15px;
+}
+/*footer*/
+
+/*Index*/
+.images{
+    height: calc(100vh - 100px);
+    width: 100%;
+}
+
+h3{
+    font-size: 70px;
+    display: inline-block;
+}
+
+h4{
+    font-size: 30px;
+    font-weight: normal;
+    padding: 20px;
+}
+
+.columna{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.columna img{
+    height: 300px;
+}
+
+.contenedor{
+    padding: 80px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+/*Index*/
+
+/*servicios*/
+.servicios{
+    background-image: url(./images/servicios/servicio.png);
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.servicios a{
+    color: #FF0000;
+    font-size: 20px;
+    text-decoration: none; 
+}
+
+.servicios a:hover{
+    color: #000000;
+}
+
+.centro{
+    max-width: 700px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff44;
+    margin: 0 auto;
+}
+
+.centro div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.centro p{
+    font-size: 20px;
+}
+
+.servicios h4{
+    font-size: 18px;
+}
+
+.articles{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.articles article{
+    max-width: 700px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cb3c4385;
+    margin: 20px 20px;
+}
+
+.articles article div h4{
+    padding: 0;
+} 
+
+.articles article div p{
+    font-size: 17px;
+}
+/*servicios*/
+
+/*nosotros*/
+.nosotros ul{
+    list-style-type: disc;
+    font-size: 25px;
+}
+
+.nosotros h3{
+    font-size: 35px;    
+}
+
+#nosotros1{
+    width: 90%;
+    margin: 0 auto;
+}
+#nosotros2{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.agrupa{
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 40%;
+}
+
+.agrupa ul li{
+    margin: 30px;
+}
+
+.coder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*nosotros*/
+
+/*galeria*/
+.galeria{
+    background-color: #000000;
+}
+
+.galeria article{
+    width: calc(100% - 40px);
+    height: 350px;
+    box-sizing: border-box;
+    margin: 35px auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    background-color: #24090c;
+}
+
+.galeria article img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+/*galeria*/
+
+/*contacto*/
+.contacto .todo{
+    background-color: #CB3C43;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contacto .cont{
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: unset;
+}
+
+.cont .item{
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: unset;
+}
+
+.cont .item div{
+    text-align: left;
+    margin-left: 15px;
+}
+
+.cont .item div h4{
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+.mapa{
+    width: 100%; 
+}
+
+.contacto .todo form{
+    display: grid;
+    grid-template-columns: 100px;
+    
+}
+
+/*contacto*/
