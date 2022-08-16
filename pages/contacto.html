@@ -66,18 +66,27 @@
             </div>
             <form>
                 
-                <label for="nombre">Nombre:</label>
-                <input id=nombre type="text" placeholder="Ingresa tu nombre" required>
-                <label for="email">Email:</label>
-                <input id=email type="email" placeholder="Ingresa tu Email" required>
-                <label for="telefono">Teléfono:</label>
-                <input id=telefono type="tel" placeholder="Ingresa tu Teléfono" required>
-                <label for="consulta">Consulta:</label>
-                <textarea id="consulta" placeholder="Ingresa tu Consulta" required></textarea>
-                <label for="terminos y condiciones">He leído y acepto los términos y condiciones:</label>
-                <input id="terminos y condiciones" type="checkbox" required>
-                <input type="submit">
-                <input type="reset">
+                <div class="monza">
+                    <div class="form-l">
+                        
+                        <input id=nombre type="text" placeholder="Ingresa tu nombre" required>
+                        <input id=email type="email" placeholder="Ingresa tu Email" required>
+                        <input id=telefono type="tel" placeholder="Ingresa tu Teléfono" required>
+                    </div>
+                    <div class="form-r">
+                     <textarea id="consulta" placeholder="Ingresa tu Consulta" required></textarea>
+                    </div>
+                </div>
+                <div class="otro">
+                    <div>
+                        <label for="terminos y condiciones">He leído y acepto los términos y condiciones:</label>
+                        <input id="terminos y condiciones" type="checkbox" required>
+                    </div>
+                    <div>
+                        <input type="submit" class="boton">
+                        <input type="reset" class="boton">
+                    </div>
+                </div>
             </form>
         </div>
     </main>
