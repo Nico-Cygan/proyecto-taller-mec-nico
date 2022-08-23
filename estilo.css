@@ -401,6 +401,11 @@ h4{
     outline: none;
     border: none;
     margin: 10px 20px;
+    cursor: pointer;
+}
+
+.boton:active{
+    color: #CB3C43;
 }
 
 .otro{
