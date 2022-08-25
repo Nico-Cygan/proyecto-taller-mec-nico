@@ -27,25 +27,25 @@ main{
 /*main*/
 
 /*header*/
-header{
+.headermas{
     padding: 10px;
     background: #CB3C43;
 }
 
-header nav{
+.headermas nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     grid-area: nav;
 }
 
-header nav ul{
+.headermas nav ul{
     list-style-type: none;
     display: flex;
     padding-right: 90px;
 }
 
-header nav ul li a{
+.headermas nav ul li a{
     text-decoration: none;
     color: #212121;
     font-weight: bold;
@@ -54,7 +54,11 @@ header nav ul li a{
     position: relative;
  }
 
- header nav ul li a::after{
+.headermas nav ul li a:hover{
+    color: unset;
+}
+
+ .headermas nav ul li a::after{
     content: "";
     position: absolute;
     display: block;
@@ -66,7 +70,7 @@ header nav ul li a{
     transition: .2s;
  }
 
- header nav ul li a:hover::after{
+ .headermas nav ul li a:hover::after{
     width: 100%;
  }
  /*header*/
@@ -100,7 +104,7 @@ footer img{
     grid-template-columns: 40% auto;
 }
 .images{
-    height: calc(100vh - 100px);
+    height: 100%;
     width: 100%;
     grid-area: images;
     object-fit: cover;
@@ -123,15 +127,18 @@ footer img{
     padding: 80px 40px;
 }
 
-h3{
+.claseh3{
     font-size: 70px;
     display: inline-block;
+    font-weight: bold;
+    line-height: unset;
 }
 
-h4{
+.claseh4{
     font-size: 30px;
     font-weight: normal;
     padding: 20px;
+    line-height: unset;
 }
 
 .columna h4{
@@ -156,6 +163,59 @@ h4{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+}
+
+.carousel{
+    height: calc(100vh - 100px);
+}
+
+.carousel-inner{
+    height: 100%;
+}
+
+.carousel-item{
+    height: 100%;
+}
+
+.carousel-item img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-indicators [data-bs-target]{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 5px 20px;
+    background-color: #616161;
+}
+
+.carousel-indicators [data-bs-target].active{
+    background-color: #CB3C43;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    color: #FF0000;
+}
+
+ul{
+    margin: unset;
+}
+
+p{
+    margin: unset;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.nav-link{
+    padding: 0;
 }
 /*Index*/
 
@@ -235,6 +295,11 @@ h4{
 
 .articles article div p{
     font-size: 17px;
+}
+
+.botonservi{
+    background-color: #212121ca;
+    border: none;
 }
 /*servicios*/
 
