@@ -407,10 +407,6 @@ p{
     margin: 0;
 }
 
-.mapa{
-    width: 100%; 
-}
-
 .contacto .todo form{
    width: 100%;
    max-width: 900px; 
@@ -490,6 +486,10 @@ p{
     .logo{
         padding: 0px;
     }
+
+    .h5, h5{
+        font-size: 1.20rem;
+    }
     /*header*/
     header nav{
         display: flex;
@@ -509,6 +509,14 @@ p{
     header nav ul li a{
         margin: 0px;
         padding: 10px;
+    }
+
+    .headermas nav ul{
+        padding: 0px;
+    }
+
+    .headermas nav ul li a{
+        margin: 10px;
     }
     /*header*/
 
@@ -583,6 +591,10 @@ p{
         justify-content: center;
         align-items: center;
         height: auto;
+    }
+
+    #gallery-popup .modal-img{
+      width: 100%;  
     }
     /*galeria*/
 
