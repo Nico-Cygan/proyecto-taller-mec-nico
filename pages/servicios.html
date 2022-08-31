@@ -1,126 +1,207 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Servicios</title>
-    <link rel="icon" href="../images/logo/logo.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="../estilo.css">
-</head>
-<body>
-
+    <link rel="icon" href="../images/logo/logo.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../estilo.css" />
+  </head>
+  <body>
     <header class="headermas">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <img class="navbar-brand logo" src="../images/logo/logo.png" alt="logo">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="servicios.html">Servicios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="nosotros.html">Nosotros</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="galeria.html">Galería</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <img
+            class="navbar-brand logo"
+            src="../images/logo/logo.png"
+            alt="logo"
+          />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  id="link-inicio"
+                  href="servicios.html"
+                  >Servicios</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="galeria.html">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main class="servicios">
-        <div class="centro">
-            <div>
-                <img src="../images/servicios/agenda.png" alt="agenda">
-                <a type="button" class="btn btn-light botonservi" href="contacto.html">CONTACTAR</a>
-            </div>
-            <p>Depende el auto que tengas cada tantos kilometros debes realizarle un servicio de mantenimiento. Comunicate con nosotros para que te hagamos un presupuesto del servicio que necesitas.</p>                              
+      <div class="centro">
+        <div>
+          <img src="../images/servicios/agenda.png" alt="agenda" />
+          <a type="button" class="btn btn-light botonservi" href="contacto.html"
+            >CONTACTAR</a
+          >
         </div>
-        <div class="articles">
-            <article>
-                <img src="../images/servicios/service.png" alt="service">
-                <div>
-                    <h4>SERVICE</h4>
-                    <p>Las revisiones de kilometraje son protocolos de mantenimiento establecidos por los fabricantes para garantizar un correcto funcionamiento del vehículo.</p>
-                </div>
-            </article>
-            <article>
-                <img src="../images/servicios/cambio-aceite.png" alt="cambio de aceite">
-                <div>
-                    <h4>CAMBIO DE ACEITE Y FILTROS</h4>
-                    <p>El aceite lubrica y permite el movimiento de las piezas internas del motor. Renovarlo regularmente, es muy importante para preservar la vida útil del motor.</p>
-                </div>
-            </article>
-            <article>
-                <img src="../images/servicios/alineacion-balanceo.png" alt="alineación y balanceo">
-                <div>
-                    <h4>ALINEACIÓN Y BALANCEO</h4>
-                    <p>Ambos son fundamentales para alargar la vida útil de la suspensión, las llantas de tu vehículo y, lo más importante, para la seguridad de todos.</p>
-                </div>
-            </article>
-            <article>
-                <img src="../images/servicios/frenos.png" alt="frenos">
-                <div>
-                    <h4>FRENOS</h4>
-                    <p>Reparación o cambio de Discos y pastillas, cilindros, mordazas, bomba de frenos, cintas y campanas, freno de mano y cables de mando, válvulas compensadoras.</p>
-                </div>
-            </article>
-            <article>
-                <img src="../images/servicios/limpieza-inyectores.png" alt="limpieza de inyectores">
-                <div>
-                    <h4>LIMPIEZA DE INYECTORES</h4>
-                    <p>Los inyectores son los encargados de llevar el combustible para que se mezcle con el aire por lo que tienen un alto desgaste y acumulan suciedad.</p>
-                </div>
-            </article>
-            <article>
-                <img src="../images/servicios/suspension.png" alt="suspensión y amortiguadores">
-                <div>
-                    <h4>SUSPENSIÓN/AMORTIGUADORES</h4>
-                    <p>El sistema de suspensión hace parte de la seguridad activa del vehículo, cumpliendo una loable función de seguridad, que garantiza la buena estabilidad en las curvas y un máximo confort de marcha y maniobrabilidad.</p>
-                </div>
-            </article>
-            <article>
-                <img src="../images/servicios/diagnostico-fallas.png" alt="diagnostico de fallas">
-                <div>
-                    <h4>DIAGNÓSTICO DE FALLAS</h4>
-                    <p>Se emplea para identificar las fallas en el vehículo y poder así reparar estas mismas.</p>
-                </div>
-            </article>
-            <article>
-                <img src="../images/servicios/chapa-pintura.png" alt="chapa y pintura">
-                <div>
-                    <h4>CHAPA Y PINTURA</h4>
-                    <p>Contamos con los medios más modernos y los profesionales más cualificados para que los trabajos que necesite de reparación de chapa y pintura para su vehículo cumplan con todas sus expectativas.</p>
-                </div>
-            </article>
-        </div>
-
+        <p>
+          Depende el auto que tengas cada tantos kilometros debes realizarle un
+          servicio de mantenimiento. Comunicate con nosotros para que te hagamos
+          un presupuesto del servicio que necesitas.
+        </p>
+      </div>
+      <div class="articles">
+        <article>
+          <img src="../images/servicios/service.png" alt="service" />
+          <div>
+            <h4>SERVICE</h4>
+            <p>
+              Las revisiones de kilometraje son protocolos de mantenimiento
+              establecidos por los fabricantes para garantizar un correcto
+              funcionamiento del vehículo.
+            </p>
+          </div>
+        </article>
+        <article>
+          <img
+            src="../images/servicios/cambio-aceite.png"
+            alt="cambio de aceite"
+          />
+          <div>
+            <h4>CAMBIO DE ACEITE Y FILTROS</h4>
+            <p>
+              El aceite lubrica y permite el movimiento de las piezas internas
+              del motor. Renovarlo regularmente, es muy importante para
+              preservar la vida útil del motor.
+            </p>
+          </div>
+        </article>
+        <article>
+          <img
+            src="../images/servicios/alineacion-balanceo.png"
+            alt="alineación y balanceo"
+          />
+          <div>
+            <h4>ALINEACIÓN Y BALANCEO</h4>
+            <p>
+              Ambos son fundamentales para alargar la vida útil de la
+              suspensión, las llantas de tu vehículo y, lo más importante, para
+              la seguridad de todos.
+            </p>
+          </div>
+        </article>
+        <article>
+          <img src="../images/servicios/frenos.png" alt="frenos" />
+          <div>
+            <h4>FRENOS</h4>
+            <p>
+              Reparación o cambio de Discos y pastillas, cilindros, mordazas,
+              bomba de frenos, cintas y campanas, freno de mano y cables de
+              mando, válvulas compensadoras.
+            </p>
+          </div>
+        </article>
+        <article>
+          <img
+            src="../images/servicios/limpieza-inyectores.png"
+            alt="limpieza de inyectores"
+          />
+          <div>
+            <h4>LIMPIEZA DE INYECTORES</h4>
+            <p>
+              Los inyectores son los encargados de llevar el combustible para
+              que se mezcle con el aire por lo que tienen un alto desgaste y
+              acumulan suciedad.
+            </p>
+          </div>
+        </article>
+        <article>
+          <img
+            src="../images/servicios/suspension.png"
+            alt="suspensión y amortiguadores"
+          />
+          <div>
+            <h4>SUSPENSIÓN/AMORTIGUADORES</h4>
+            <p>
+              El sistema de suspensión hace parte de la seguridad activa del
+              vehículo, cumpliendo una loable función de seguridad, que
+              garantiza la buena estabilidad en las curvas y un máximo confort
+              de marcha y maniobrabilidad.
+            </p>
+          </div>
+        </article>
+        <article>
+          <img
+            src="../images/servicios/diagnostico-fallas.png"
+            alt="diagnostico de fallas"
+          />
+          <div>
+            <h4>DIAGNÓSTICO DE FALLAS</h4>
+            <p>
+              Se emplea para identificar las fallas en el vehículo y poder así
+              reparar estas mismas.
+            </p>
+          </div>
+        </article>
+        <article>
+          <img
+            src="../images/servicios/chapa-pintura.png"
+            alt="chapa y pintura"
+          />
+          <div>
+            <h4>CHAPA Y PINTURA</h4>
+            <p>
+              Contamos con los medios más modernos y los profesionales más
+              cualificados para que los trabajos que necesite de reparación de
+              chapa y pintura para su vehículo cumplan con todas sus
+              expectativas.
+            </p>
+          </div>
+        </article>
+      </div>
     </main>
 
     <footer>
-        <img src="../images/logo/logo.png" alt="logo" class="logo">
-        <p>© 2022 Taller zona racing. All Rights Reserved</p>
-        <div>
-            <img src="../images/footer/instagram.png" alt="instagram">
-            <img src="../images/footer/web.png" alt="web">
-            <img src="../images/footer/twitter.png" alt="twitter">
-            <img src="../images/footer/youtube.png" alt="youtube">
-        </div>
+      <img src="../images/logo/logo.png" alt="logo" class="logo" />
+      <p>© 2022 Taller zona racing. All Rights Reserved</p>
+      <div>
+        <img src="../images/footer/instagram.png" alt="instagram" />
+        <img src="../images/footer/web.png" alt="web" />
+        <img src="../images/footer/twitter.png" alt="twitter" />
+        <img src="../images/footer/youtube.png" alt="youtube" />
+      </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-    
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

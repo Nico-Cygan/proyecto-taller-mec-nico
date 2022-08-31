@@ -518,6 +518,18 @@ p{
     .headermas nav ul li a{
         margin: 10px;
     }
+
+    .headermas nav ul li a:active{
+        color: #E0E0E0;
+    }
+
+    #link-inicio{
+        color: #000000;
+    }
+
+    .headermas nav ul li a::after{
+        display: none;
+    }
     /*header*/
 
     /*footer*/
