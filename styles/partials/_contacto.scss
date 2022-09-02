@@ -1,7 +1,7 @@
 .contacto{
     word-break: break-word;
     .todo{
-        background-color: #CB3C43;
+        background-color: $colorprincipal;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -91,7 +91,7 @@
     margin: 10px 20px;
     cursor: pointer;
     &:active{
-        color: #CB3C43;
+        color: $colorprincipal;
     }
 }
 
