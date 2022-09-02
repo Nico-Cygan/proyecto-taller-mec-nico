@@ -1,0 +1,27 @@
+.galeria{
+    background-color: #000000;
+    article{
+        width: calc(100% - 40px);
+        height: 350px;
+        box-sizing: border-box;
+        margin: 35px auto;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+        background-color: #24090c;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+#gallery-popup .modal-img{
+    width: 100%;
+}
+
+.gallery-item{
+    cursor: pointer;
+}

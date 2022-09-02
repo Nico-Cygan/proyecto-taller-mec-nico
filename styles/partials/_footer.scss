@@ -1,0 +1,15 @@
+footer{
+    padding: 10px;
+    background: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-area: footer;
+    p{
+        color: #E0E0E0;
+    }
+    img{
+        height: 30px;
+        padding-right: 15px;
+    }
+}

@@ -1,0 +1,163 @@
+@media screen and (max-width:768px) {
+    .logo{
+        padding: 0px;
+    }
+
+    .h5, h5{
+        font-size: 1.20rem;
+    }
+    /*header*/
+    header nav{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        ul{
+            padding: 0px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-evenly;
+            li a{
+                margin: 0px;
+                padding: 10px;
+            }
+        }
+    }
+
+    .headermas nav ul{
+        padding: 0px;
+        li a{
+            margin: 10px;
+            &:active{
+                color: #E0E0E0;
+            }
+            &::after{
+                display: none;
+            }
+        }
+    }
+
+    #link-inicio{
+        color: #000000;
+    }
+    /*header*/
+    /*footer*/
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        p{
+            display: block;
+            padding: 10px;
+        }
+    }
+    /*footer*/
+    /*index*/
+    .mainindex{
+        display: flex;
+        flex-wrap: wrap;
+        .columna1{
+            padding: 0px;
+            margin-bottom: 30px;
+        }
+    }
+    h3{
+        font-size: 60px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    /*index*/
+    /*servicios*/
+    .servicios{
+        padding: 10px;
+        .centro{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        div article{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    /*servicios*/
+    /*nosotros*/
+    .nosotros .agrupa{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+     }
+    /*nosotros*/
+    /*galeria*/
+    .galeria main article{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    #gallery-popup .modal-img{
+      width: 100%;  
+    }
+    /*galeria*/
+    /*contacto*/
+    .contacto *{
+        box-sizing: border-box;
+        .todo{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .monza{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        textarea{
+            margin: 0;
+            padding: 10px;
+            width: 100%;
+        }
+    }
+    .otro{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mapa{
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .form-l input{
+        margin: 20px 0;
+        width: 100%;
+        height: 60px;
+    }
+
+    .cont .item{
+        margin: 10px 0;
+    }
+
+    .form-r, .form-l{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    /*contacto*/
+}

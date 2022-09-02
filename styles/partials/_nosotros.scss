@@ -1,0 +1,36 @@
+.nosotros ul{
+    list-style-type: disc;
+    font-size: 25px;
+}
+
+.nosotros h3{
+    font-size: 35px;    
+}
+
+#nosotros1{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#nosotros2{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.agrupa{
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 40%;
+    ul li{
+        margin: 30px;
+    }
+}
+
+.coder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

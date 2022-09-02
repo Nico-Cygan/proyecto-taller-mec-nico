@@ -1,0 +1,52 @@
+.headermas{
+    padding: 20px;
+    background: #CB3C43;
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        grid-area: nav;
+        ul{
+            list-style-type: none;
+            display: flex;
+            padding-right: 90px;
+            li a{
+                text-decoration: none;
+                color: #212121;
+                font-weight: bold;
+                margin-right: 60px;
+                font-size: 18px;
+                position: relative;
+                &:hover{
+                    color: unset;
+                    &::after{
+                        width: 100%;
+                     }
+                }
+                &::after{
+                    content: "";
+                    position: absolute;
+                    display: block;
+                    width: 0%;
+                    height: 2px;
+                    bottom: -5px;
+                    left: 0px;
+                    background-color: #000000;
+                    transition: .2s;
+                 }
+            }
+        }
+    }
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.nav-link{
+    padding: 0;
+}

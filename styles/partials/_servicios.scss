@@ -1,0 +1,75 @@
+.servicios{
+    background-image: url(../images/servicios/servicio.png);
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 20px;
+    display: grid;
+    grid-area: "";
+    a{
+        color: #FF0000;
+        font-size: 20px;
+        text-decoration: none;
+        &:hover{
+            color: #000000;
+        } 
+    }
+}    
+
+.centro{
+    max-width: 700px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff44;
+    margin: 0 auto;
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 18px;
+        word-break: break-word;
+    }
+}
+
+.articles{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    article{
+        max-width: 700px;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #cb3c4385;
+        margin: 20px 20px;
+        div {
+            h4{
+            padding: 0;
+            }
+            p{
+                font-size: 17px;
+            }
+        }
+    }
+}
+
+.botonservi{
+    background-color: #212121ca;
+    border: none;
+}
