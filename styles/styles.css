@@ -224,6 +224,7 @@ footer img {
   align-items: center;
   background-color: rgba(203, 60, 67, 0.5215686275);
   margin: 20px 20px;
+  word-break: break-word;
 }
 .articles article div h4 {
   padding: 0;
