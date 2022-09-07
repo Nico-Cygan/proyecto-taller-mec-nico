@@ -4,9 +4,9 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    grid-area: footer;
+    grid-area: footer; 
     p{
-        color: #E0E0E0;
+        @include pcolor(#E0E0E0);
     }
     img{
         height: 30px;

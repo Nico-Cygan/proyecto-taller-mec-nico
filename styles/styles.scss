@@ -1,4 +1,6 @@
-$colorprincipal:#CB3C43;
+@import "./partials/extends";
+@import "./partials/maps";
+@import "./partials/mixins";
 @import "./partials/header";
 @import "./partials/footer";
 @import "./partials/index";

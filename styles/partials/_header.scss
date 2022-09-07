@@ -1,6 +1,6 @@
 .headermas{
     padding: 20px;
-    background: $colorprincipal;
+    background: map-get($colors, colorprincipal);
     nav{
         display: flex;
         align-items: center;

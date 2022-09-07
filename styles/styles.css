@@ -1,3 +1,14 @@
+.boton {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #E0E0E0;
+  outline: none;
+  border: none;
+  margin: 10px 20px;
+  cursor: pointer;
+}
+
 .headermas {
   padding: 20px;
   background: #CB3C43;
@@ -387,16 +398,6 @@ footer img {
   padding: 10px;
 }
 
-.boton {
-  padding: 10px 20px;
-  border-radius: 5px;
-  background-color: #000000;
-  color: #E0E0E0;
-  outline: none;
-  border: none;
-  margin: 10px 20px;
-  cursor: pointer;
-}
 .boton:active {
   color: #CB3C43;
 }

@@ -87,7 +87,7 @@
 }
 
 .carousel-indicators [data-bs-target].active{
-    background-color: $colorprincipal;
+    background-color: map-get($colors, colorprincipal);
 }
 
 .carousel-control-next, .carousel-control-prev{

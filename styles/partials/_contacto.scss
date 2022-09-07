@@ -1,7 +1,7 @@
 .contacto{
     word-break: break-word;
     .todo{
-        background-color: $colorprincipal;
+        background-color: map-get($colors, colorprincipal);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -82,16 +82,9 @@
 }
 
 .boton{
-    padding: 10px 20px;
-    border-radius: 5px;
-    background-color: #000000;
-    color: #E0E0E0;
-    outline: none;
-    border: none;
-    margin: 10px 20px;
-    cursor: pointer;
+    @extend %botonContacto;
     &:active{
-        color: $colorprincipal;
+        color: map-get($colors, colorprincipal);
     }
 }
 
