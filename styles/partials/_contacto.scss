@@ -1,5 +1,12 @@
 .contacto{
     word-break: break-word;
+    background-color: map-get($colors , colorprincipal );
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    .mapa{
+        border: 3px solid;
+        border-radius: 30px;
+    }
     .todo{
         background-color: map-get($colors, colorprincipal);
         display: flex;
@@ -95,3 +102,4 @@
     max-width: 800px;
     width: 100%;
 }
+

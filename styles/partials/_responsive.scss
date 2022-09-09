@@ -111,8 +111,14 @@
     }
     /*galeria*/
     /*contacto*/
-    .contacto *{
+    .contacto {
         box-sizing: border-box;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        .mapa{
+            border: 3px solid;
+            border-radius: 30px;
+        }
         .todo{
             display: flex;
             flex-wrap: wrap;

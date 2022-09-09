@@ -9,6 +9,35 @@
   cursor: pointer;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  height: 80px;
+  padding-left: 50px;
+}
+
+body {
+  display: grid;
+  grid-template-areas: "nav" "main" "footer";
+  grid-template-rows: auto 1fr auto;
+}
+
+main {
+  grid-area: main;
+}
+
+ul {
+  margin: unset;
+}
+
+p {
+  margin: unset;
+}
+
 .headermas {
   padding: 20px;
   background: #CB3C43;
@@ -26,7 +55,6 @@
 }
 .headermas nav ul li a {
   text-decoration: none;
-  color: #212121;
   font-weight: bold;
   margin-right: 60px;
   font-size: 18px;
@@ -317,6 +345,13 @@ footer img {
 
 .contacto {
   word-break: break-word;
+  background-color: #CB3C43;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.contacto .mapa {
+  border: 3px solid;
+  border-radius: 30px;
 }
 .contacto .todo {
   background-color: #CB3C43;
@@ -519,10 +554,16 @@ footer img {
   }
   /*galeria*/
   /*contacto*/
-  .contacto * {
+  .contacto {
     box-sizing: border-box;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
-  .contacto * .todo {
+  .contacto .mapa {
+    border: 3px solid;
+    border-radius: 30px;
+  }
+  .contacto .todo {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -565,32 +606,4 @@ footer img {
     margin: 0;
   }
   /*contacto*/
-}
-* {
-  padding: 0;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.logo {
-  height: 80px;
-  padding-left: 50px;
-}
-
-body {
-  display: grid;
-  grid-template-areas: "nav" "main" "footer";
-  grid-template-rows: auto 1fr auto;
-}
-
-main {
-  grid-area: main;
-}
-
-ul {
-  margin: unset;
-}
-
-p {
-  margin: unset;
 }/*# sourceMappingURL=styles.css.map */

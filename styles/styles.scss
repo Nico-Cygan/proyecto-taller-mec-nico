@@ -1,6 +1,7 @@
 @import "./partials/extends";
 @import "./partials/maps";
 @import "./partials/mixins";
+@import "./partials/reset";
 @import "./partials/header";
 @import "./partials/footer";
 @import "./partials/index";
@@ -9,35 +10,3 @@
 @import "./partials/galeria";
 @import "./partials/contacto";
 @import "./partials/responsive";
-
-*{
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.logo{
-    height: 80px; 
-    padding-left: 50px;
-}
-
-body{
-    display: grid;
-    grid-template-areas: 
-    "nav"
-    "main"
-    "footer";
-    grid-template-rows: auto 1fr auto;  
-}
-
-main{
-    grid-area: main;
-}
-
-ul{
-    margin: unset;
-}
-
-p{
-    margin: unset;
-}
