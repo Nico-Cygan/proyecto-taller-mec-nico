@@ -1,4 +1,4 @@
-.boton {
+.contacto .todo form .otro div .boton {
   padding: 10px 20px;
   border-radius: 5px;
   background-color: #000000;
@@ -267,6 +267,7 @@ footer img {
 }
 .articles article div h4 {
   padding: 0;
+  font-size: 20px;
 }
 .articles article div p {
   font-size: 17px;
@@ -366,49 +367,13 @@ footer img {
   width: 100%;
   max-width: 900px;
 }
-.contacto label {
-  font-weight: bold;
-}
-.contacto .cont {
-  width: 100%;
-  margin: 10px auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: unset;
-}
-.contacto .cont .item {
-  max-width: 340px;
-  margin: 10px 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: unset;
-}
-.contacto .cont .item div {
-  text-align: left;
-  margin-left: 15px;
-}
-.contacto .cont .item div h4 {
-  font-size: 18px;
-  padding: 0;
-  margin: 0;
-}
-
-.forms {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.monza {
+.contacto .todo form .monza {
   display: grid;
   grid-template-columns: 40% 1fr;
   width: 100%;
   align-items: center;
 }
-.monza input {
+.contacto .todo form .monza input {
   width: 300px;
   height: 40px;
   border-radius: 8px;
@@ -417,7 +382,7 @@ footer img {
   padding: 10px;
   margin: 20px;
 }
-.monza textarea {
+.contacto .todo form .monza textarea {
   width: 100%;
   height: 230px;
   border-radius: 8px;
@@ -427,22 +392,48 @@ footer img {
   margin: 20px;
   resize: none;
 }
-
-.form-r {
+.contacto .todo form .monza .form-r {
   width: 100%;
   padding: 10px;
 }
-
-.boton:active {
-  color: #CB3C43;
-}
-
-.otro {
+.contacto .todo form .otro {
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 800px;
   width: 100%;
+}
+.contacto .todo form .otro div .boton:active {
+  color: #CB3C43;
+}
+.contacto .todo form .otro div label {
+  font-weight: bold;
+}
+.contacto .todo .cont {
+  width: 100%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: unset;
+}
+.contacto .todo .cont .item {
+  max-width: 340px;
+  margin: 10px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: unset;
+}
+.contacto .todo .cont .item div {
+  text-align: left;
+  margin-left: 15px;
+}
+.contacto .todo .cont .item div h4 {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -450,7 +441,7 @@ footer img {
     padding: 0px;
   }
   .h5, h5 {
-    font-size: 1.2rem;
+    font-size: 1.08rem;
   }
   /*header*/
   header nav {
@@ -495,7 +486,7 @@ footer img {
   }
   footer p {
     display: block;
-    padding: 10px;
+    padding: 10px 0px;
   }
   /*footer*/
   /*index*/
@@ -569,6 +560,12 @@ footer img {
     justify-content: center;
     align-items: center;
   }
+  .contacto .cont .item {
+    margin: 10px 0px;
+  }
+  .contacto .cont .item div h4 {
+    font-size: 20px;
+  }
   .monza {
     display: flex;
     flex-wrap: wrap;
@@ -596,9 +593,6 @@ footer img {
     margin: 20px 0;
     width: 100%;
     height: 60px;
-  }
-  .cont .item {
-    margin: 10px 0;
   }
   .form-r, .form-l {
     width: 100%;

@@ -30,7 +30,7 @@
                     height: 2px;
                     bottom: -5px;
                     left: 0px;
-                    background-color: #000000;
+                    background-color: map-get($colors, colorsecundario);
                     transition: .2s;
                  }
             }

@@ -91,5 +91,5 @@
 }
 
 .carousel-control-next, .carousel-control-prev{
-    color: #FF0000;
+    color: map-get($colors, colorterciario);
 }

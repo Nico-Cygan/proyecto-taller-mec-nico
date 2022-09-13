@@ -1,12 +1,12 @@
 footer{
     padding: 10px;
-    background: #000000;
+    background: map-get($colors, colorsecundario);
     display: flex;
     align-items: center;
     justify-content: space-between;
     grid-area: footer; 
     p{
-        @include pcolor(#E0E0E0);
+        @include pcolor(map-get($colors, colorcuaternario));
     }
     img{
         height: 30px;
