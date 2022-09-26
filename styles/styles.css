@@ -38,35 +38,35 @@ p {
   margin: unset;
 }
 
-.headermas {
+.headerMas {
   padding: 20px;
   background: #CB3C43;
 }
-.headermas nav {
+.headerMas nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   grid-area: nav;
 }
-.headermas nav ul {
+.headerMas nav ul {
   list-style-type: none;
   display: flex;
   padding-right: 90px;
 }
-.headermas nav ul li a {
+.headerMas nav ul li a {
   text-decoration: none;
   font-weight: bold;
   margin-right: 60px;
   font-size: 18px;
   position: relative;
 }
-.headermas nav ul li a:hover {
+.headerMas nav ul li a:hover {
   color: unset;
 }
-.headermas nav ul li a:hover::after {
+.headerMas nav ul li a:hover::after {
   width: 100%;
 }
-.headermas nav ul li a::after {
+.headerMas nav ul li a::after {
   content: "";
   position: absolute;
   display: block;
@@ -106,7 +106,7 @@ footer img {
   padding-right: 15px;
 }
 
-.mainindex {
+.mainIndex {
   display: grid;
   grid-template-areas: "images images" "columna columna1";
   grid-template-columns: 40% auto;
@@ -268,12 +268,14 @@ footer img {
 .articles article div h4 {
   padding: 0;
   font-size: 20px;
+  color: #000000;
 }
 .articles article div p {
   font-size: 17px;
+  color: #000000;
 }
 
-.botonservi {
+.botonServi {
   background-color: rgba(33, 33, 33, 0.7921568627);
   border: none;
 }
@@ -285,6 +287,7 @@ footer img {
 
 .nosotros h3 {
   font-size: 35px;
+  text-align: center;
 }
 
 #nosotros1 {
@@ -461,16 +464,16 @@ footer img {
     margin: 0px;
     padding: 10px;
   }
-  .headermas nav ul {
+  .headerMas nav ul {
     padding: 0px;
   }
-  .headermas nav ul li a {
+  .headerMas nav ul li a {
     margin: 10px;
   }
-  .headermas nav ul li a:active {
+  .headerMas nav ul li a:active {
     color: #E0E0E0;
   }
-  .headermas nav ul li a::after {
+  .headerMas nav ul li a::after {
     display: none;
   }
   #link-inicio {
@@ -490,11 +493,11 @@ footer img {
   }
   /*footer*/
   /*index*/
-  .mainindex {
+  .mainIndex {
     display: flex;
     flex-wrap: wrap;
   }
-  .mainindex .columna1 {
+  .mainIndex .columna1 {
     padding: 0px;
     margin-bottom: 30px;
   }
@@ -553,6 +556,9 @@ footer img {
   .contacto .mapa {
     border: 3px solid;
     border-radius: 30px;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .contacto .todo {
     display: flex;
@@ -560,44 +566,39 @@ footer img {
     justify-content: center;
     align-items: center;
   }
-  .contacto .cont .item {
-    margin: 10px 0px;
-  }
-  .contacto .cont .item div h4 {
-    font-size: 20px;
-  }
-  .monza {
+  .contacto .todo form .monza {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
   }
-  .monza textarea {
+  .contacto .todo form .monza textarea {
     margin: 0;
     padding: 10px;
     width: 100%;
   }
-  .otro {
+  .contacto .todo form .monza .form-l input {
+    margin: 20px 0;
+    width: 100%;
+    height: 60px;
+  }
+  .contacto .todo form .monza .form-r, .contacto .todo form .monza .form-l {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .contacto .todo form .otro {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
-  .mapa {
-    height: 200px;
-    -o-object-fit: cover;
-       object-fit: cover;
+  .contacto .todo .cont .item {
+    margin: 10px 0px;
   }
-  .form-l input {
-    margin: 20px 0;
-    width: 100%;
-    height: 60px;
-  }
-  .form-r, .form-l {
-    width: 100%;
-    padding: 0;
-    margin: 0;
+  .contacto .todo .cont .item div h4 {
+    font-size: 20px;
   }
   /*contacto*/
 }/*# sourceMappingURL=styles.css.map */

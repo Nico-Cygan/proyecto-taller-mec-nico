@@ -63,15 +63,17 @@
             h4{
             padding: 0;
             font-size: 20px;
+            color: map-get($colors, colorsecundario);
             }
             p{
                 font-size: 17px;
+                color: map-get($colors, colorsecundario);
             }
         }
     }
 }
 
-.botonservi{
+.botonServi{
     background-color: #212121ca;
     border: none;
 }

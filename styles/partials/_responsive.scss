@@ -25,7 +25,7 @@
         }
     }
 
-    .headermas nav ul{
+    .headerMas nav ul{
         padding: 0px;
         li a{
             margin: 10px;
@@ -55,7 +55,7 @@
     }
     /*footer*/
     /*index*/
-    .mainindex{
+    .mainIndex{
         display: flex;
         flex-wrap: wrap;
         .columna1{
@@ -118,58 +118,60 @@
         .mapa{
             border: 3px solid;
             border-radius: 30px;
+            height: 200px;
+            object-fit: cover;
         }
         .todo{
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-        }
-        .cont{
-            .item{
-                margin: 10px 0px;
-                div{
-                    h4{
-                        font-size: 20px;
+            form{
+                .monza{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 20px;
+                    textarea{
+                        margin: 0;
+                        padding: 10px;
+                        width: 100%;
+                    }
+                    .form-l input{
+                        margin: 20px 0;
+                        width: 100%;
+                        height: 60px;
+                    }
+                
+                    .form-r, .form-l{
+                        width: 100%;
+                        padding: 0;
+                        margin: 0;
+                    }
+                }
+                .otro{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+            .cont{
+                .item{
+                    margin: 10px 0px;
+                    div{
+                        h4{
+                            font-size: 20px;
+                        }
                     }
                 }
             }
         }
+        
     }
-    .monza{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-        textarea{
-            margin: 0;
-            padding: 10px;
-            width: 100%;
-        }
-    }
-    .otro{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
+    
 
-    .mapa{
-        height: 200px;
-        object-fit: cover;
-    }
-
-    .form-l input{
-        margin: 20px 0;
-        width: 100%;
-        height: 60px;
-    }
-
-    .form-r, .form-l{
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
+   
     /*contacto*/
 }
