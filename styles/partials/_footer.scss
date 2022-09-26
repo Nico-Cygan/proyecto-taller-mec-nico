@@ -6,7 +6,7 @@ footer{
     justify-content: space-between;
     grid-area: footer; 
     p{
-        @include pcolor(map-get($colors, colorcuaternario));
+        color: map-get($colors, colorcuaternario);
     }
     img{
         height: 30px;
